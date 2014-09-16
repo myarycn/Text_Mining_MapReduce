@@ -49,7 +49,7 @@ def output_to_s3(s3_out):
 
 
 if __name__ == "__main__":
-    s3_out = "s3://emr.datascience.testing/test1/temp.txt"
+    s3_out = "path to your s3 file"
     # this is to write (term, idf) pair to s3_out
     output_to_s3(s3_out)
     # the following cmd is to calculate tfidf score for each (term, doc) pair.

@@ -32,7 +32,7 @@ class MRTFIDF(MRJob):
     # ################################################################## #
     def reducer_init(self):
         self.idfs = {}
-        content = urllib2.urlopen('https://s3.amazonaws.com/emr.datascience.testing/test1/temp.txt')
+        content = urllib2.urlopen('your filename')
         for line in content: 
             line = line.rstrip()
             # convert each line into dict
